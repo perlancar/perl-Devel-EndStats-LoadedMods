@@ -6,6 +6,7 @@ package Devel::EndStats::LoadedMods;
 END {
     print "# BEGIN stats from Devel::EndStats::LoadedMods\n";
     for my $file (sort keys %INC) {
+        next if $file =~ m!^/!;
         my $pkg = $file; $pkg =~ s!/!::!g; $pkg =~ s/\.pm$//;
         my $ver = ${"$pkg\::VERSION"};
         $ver = 'undef' unless defined $ver;
