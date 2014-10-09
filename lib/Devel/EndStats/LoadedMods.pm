@@ -27,7 +27,17 @@ END {
  <normal script output, if any...>
 
  # BEGIN stats from Devel::EndStats::LoadedMods
-
+ Data::Dump (1.22)
+ Devel::EndStats::LoadedMods (0.02)
+ Exporter (5.70)
+ feature (1.32)
+ overload (1.22)
+ overloading (0.02)
+ strict (1.07)
+ subs (1.01)
+ vars (1.03)
+ warnings (1.18)
+ warnings::register (1.02)
  # END stats
 
 
