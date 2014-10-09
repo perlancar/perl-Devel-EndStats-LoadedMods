@@ -16,7 +16,7 @@ END {
 }
 
 1;
-# ABSTRACT: Display run time and dependencies after running code
+# ABSTRACT: Display loaded modules and their versions at the end of program run
 
 =head1 SYNOPSIS
 
