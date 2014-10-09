@@ -5,6 +5,7 @@ package Devel::EndStats::LoadedMods;
 
 END {
     print "# BEGIN stats from Devel::EndStats::LoadedMods\n";
+    print "perl ($^V)\n";
     for my $file (sort keys %INC) {
         next if $file =~ m!^/!;
         my $pkg = $file; $pkg =~ s!/!::!g; $pkg =~ s/\.pm$//;
@@ -27,6 +28,7 @@ END {
  <normal script output, if any...>
 
  # BEGIN stats from Devel::EndStats::LoadedMods
+ perl (5.18.2)
  Data::Dump (1.22)
  Devel::EndStats::LoadedMods (0.02)
  Exporter (5.70)
