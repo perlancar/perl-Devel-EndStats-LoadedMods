@@ -2,6 +2,7 @@ package Devel::EndStats::LoadedMods;
 
 # DATE
 # VERSION
+use strict; use warnings;
 
 END {
     print "# BEGIN stats from Devel::EndStats::LoadedMods\n";
