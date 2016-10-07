@@ -2,6 +2,7 @@ package Devel::EndStats::LoadedMods;
 
 # DATE
 # VERSION
+use strict; use warnings;
 
 # we specifically avoid using any modules, so we can detect their use by others.
 # so not even 'use strict' nor 'use warnings'.
