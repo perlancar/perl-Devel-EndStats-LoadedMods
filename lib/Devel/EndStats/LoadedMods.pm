@@ -3,6 +3,9 @@ package Devel::EndStats::LoadedMods;
 # DATE
 # VERSION
 
+# we specifically avoid using any modules, so we can detect their use by others.
+# so not even 'use strict' nor 'use warnings'.
+
 END {
     print "# BEGIN stats from Devel::EndStats::LoadedMods\n";
     print "perl ($^V)\n";
