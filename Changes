@@ -1,4 +1,4 @@
-0.03    2014-10-10 (PERLANCAR)
+0.03    2014-10-10  Released-By: PERLANCAR
 
 	- Show perl version.
 
@@ -7,11 +7,11 @@
 	- Fix Abstract (copy-paste mistake).
 
 
-0.02    2014-10-09 (PERLANCAR)
+0.02    2014-10-09  Released-By: PERLANCAR
 
 	- Skip absolute paths in %INC keys.
 
 
-0.01    2014-10-09 (PERLANCAR)
+0.01    2014-10-09  Released-By: PERLANCAR
 
         - First release.
